@@ -428,3 +428,22 @@
 .testimonial-carousel .owl-dot.active::after {
     background: var(--primary);
 }
+
+#portfolio-flters li {
+    cursor: pointer;
+    padding: 10px 15px;
+    font-weight: 500;
+    transition: all 0.3s;
+    margin: 0 5px;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.portfolio-item {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}
