@@ -1,5 +1,5 @@
 import { CgGitFork } from "react-icons/cg";
-import { IoStar } from "react-icons/io5";
+// import { IoStar } from "react-icons/io5";
 import { personalData } from "../../utils/data/personal-data";
 
 function Footer() {
