@@ -9,7 +9,7 @@ export default function Hero(): JSX.Element {
     return (
         <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
             <img
-                src="/hero.svg"
+                src="hero.svg"
                 alt="Hero"
                 width={1572}
                 height={795}
@@ -209,8 +209,8 @@ export default function Hero(): JSX.Element {
                                 <span className="text-gray-400">{`(`}</span>
                             </div>
                             <div>
-                                <span className="ml-12 lg:ml-24 mr-2 text-white">freelance</span>
-                                <span className="text-amber-300">||</span>
+                                <span className="ml-12 lg:ml-24 mr-2 text-white">job</span>
+                                <span className="text-amber-300"> || </span>
                                 <span className="mr-2 text-white">freelance</span>
                             </div>
                             <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>

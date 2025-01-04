@@ -47,7 +47,7 @@ const SingleProject: React.FC<{ project: Project }> = ({ project }) => {
                 </h2>
                 <div className="p-6">
                     <img
-                        src={image ? image?.src : '/png/placeholder.png'}
+                        src={image ? image?.src : 'png/placeholder.png'}
                         alt={name}
                         width={1080}
                         height={720}

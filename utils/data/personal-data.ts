@@ -1,6 +1,6 @@
 export const personalData = {
   name: "Dhiraj Karangale",
-  profile: '/profile.png',
+  profile: 'profile.png',
   designation: "Software Developer",
   description: "I'm Dhiraj Karangale, a HackWithInfi finalist, full-stack developer, and game creator on a never-ending quest to build immersive digital experiences both on and off the screen. Whether I’m crafting epic 3D worlds in Unity 🌍, designing responsive interfaces with React ⚙️, creating mobile-first experiences with React Native 📱, or managing databases with MongoDB 💾, I'm always ready for the next big coding challenge to conquer. From designing procedurally generated games to optimizing GraphQL-powered PWAs, I bring creativity, precision, and a passion for problem-solving to every project.",
   email: 'dakarangale02@gmail.com',

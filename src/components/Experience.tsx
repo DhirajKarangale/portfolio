@@ -8,7 +8,7 @@ export default function Experience() {
     return (
         <div id="experience" className="relative z-50 border-t my-12 lg:my-24 border-[#25213b]">
             <img
-                src="/section.svg"
+                src="section.svg"
                 alt="Hero"
                 width={1572}
                 height={795}
@@ -39,7 +39,7 @@ export default function Experience() {
                                 <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                                     <div className="p-3 relative">
                                         <img
-                                            src="/blur-23.svg"
+                                            src="blur-23.svg"
                                             alt="Hero"
                                             width={1080}
                                             height={200}
