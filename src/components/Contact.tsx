@@ -60,12 +60,12 @@ export default function Contact() {
                                 size={48}
                             />
                         </a>
-                        <a target="_blank" href={contactsData.stackOverflow} rel="noopener noreferrer">
+                        {/* <a target="_blank" href={contactsData.stackOverflow} rel="noopener noreferrer">
                             <FaStackOverflow
                                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
                                 size={48}
                             />
-                        </a>
+                        </a> */}
                         <a target="_blank" href={contactsData.facebook} rel="noopener noreferrer">
                             <FaFacebook
                                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"

@@ -5,6 +5,8 @@ type Project = {
     tools: string[];
     role: string;
     description: string;
+    code: string;
+    demo: string;
 };
 
 type ProjectCardProps = {
@@ -62,6 +64,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
                     <div className="ml-4 lg:ml-8 mr-2">
                         <span className="text-white">Description:</span>
                         <span className="text-cyan-400">{' ' + project.description}</span>
+                        <span className="text-gray-400">,</span>
+                    </div>
+                    <div className="ml-4 lg:ml-8 mr-2">
+                        <span className="text-white">Code:</span>
+                        <span className="text-cyan-400">{' ' + project.code}</span>
                         <span className="text-gray-400">,</span>
                     </div>
                     <div><span className="text-gray-400">{`};`}</span></div>

@@ -1,20 +1,32 @@
 export const experiences = [
   {
     id: 1,
-    title: 'Software Engineer I',
-    company: "Teton Private Ltd.",
-    duration: "(Jan 2022 - Present)"
+    title: 'Specialist Programmer',
+    company: "Infosys",
+    duration: "(Aug 2024 - Present)"
   },
   {
     id: 2,
-    title: "FullStack Developer",
-    company: "Fiverr (freelance)",
-    duration: "(Jun 2021 - Jan 2022)"
+    title: "Programmer",
+    company: "SaralTech",
+    duration: "(Jan 2024 - June 2024)"
   },
   {
     id: 3,
-    title: "Self Employed",
-    company: "Code and build something in everyday.",
-    duration: "(Jan 2018 - Present)"
-  }
+    title: "Jr. Programmer",
+    company: "Godspeed Games",
+    duration: "(Feb 2023 - Sept 2023)"
+  },
+  // {
+  //   id: 4,
+  //   title: "Programmer Intern",
+  //   company: "Time to School",
+  //   duration: "(July 2022 - Jan 2023)"
+  // },
+  // {
+  //   id: 5,
+  //   title: "Programmer Intern",
+  //   company: "Playhobo",
+  //   duration: "(March 2022 - July 2023)"
+  // }
 ]

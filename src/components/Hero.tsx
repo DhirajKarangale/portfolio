@@ -91,9 +91,17 @@ export default function Hero(): JSX.Element {
                             <span>Get Resume</span>
                             <MdDownload size={16} />
                         </a>
+
                     </div>
 
+                    <h1 className="text-3xl mt-5 font-bold leading-10 text-white md:font-bold lg:text-[2rem] lg:leading-[3rem]">
+                        Let's, <br />
+                        <span className="text-pink-500">team up</span>{' '}
+                        and create something{' '}
+                        <span className="text-[#16f2b3]">extraordinary!</span>
+                    </h1>
                 </div>
+
                 <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
                     <div className="flex flex-row">
                         <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
@@ -117,29 +125,27 @@ export default function Hero(): JSX.Element {
                             <div>
                                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                                 <span className="text-gray-400">{`'`}</span>
-                                <span className="text-amber-300">Abu Said</span>
+                                <span className="text-amber-300">{personalData.name}</span>
                                 <span className="text-gray-400">{`',`}</span>
                             </div>
                             <div className="ml-4 lg:ml-8 mr-2">
                                 <span className=" text-white">skills:</span>
                                 <span className="text-gray-400">{`['`}</span>
-                                <span className="text-amber-300">React</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">NextJS</span>
-                                <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Redux</span>
+                                <span className="text-amber-300">MongoDB</span>
                                 <span className="text-gray-400">{"', '"}</span>
                                 <span className="text-amber-300">Express</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">NestJS</span>
+                                <span className="text-amber-300">React</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">MySql</span>
+                                <span className="text-amber-300">Node Js</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">MongoDB</span>
+                                <span className="text-amber-300">React Native</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">Docker</span>
+                                <span className="text-amber-300">Spring Boot</span>
                                 <span className="text-gray-400">{"', '"}</span>
-                                <span className="text-amber-300">AWS</span>
+                                <span className="text-amber-300">Unity</span>
+                                <span className="text-gray-400">{"', '"}</span>
+                                <span className="text-amber-300">DOTS</span>
                                 <span className="text-gray-400">{"'],"}</span>
                             </div>
                             <div>
@@ -158,17 +164,62 @@ export default function Hero(): JSX.Element {
                                 <span className="text-gray-400">,</span>
                             </div>
                             <div>
+                                <span className="ml-4 lg:ml-8 mr-2 text-white">multitasker:</span>
+                                <span className="text-orange-400">true</span>
+                                <span className="text-gray-400">,</span>
+                            </div>
+
+                            <div>
                                 <span className="ml-4 lg:ml-8 mr-2 text-green-400">hireable:</span>
                                 <span className="text-orange-400">function</span>
                                 <span className="text-gray-400">{'() {'}</span>
                             </div>
                             <div>
-                                <span className="ml-8 lg:ml-16 mr-2 text-amber-300">return</span>
-                                <span className="text-orange-400">true;</span>
+                                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
+                                <span className="text-gray-400">{`(`}</span>
                             </div>
                             <div>
-                                <span className="text-gray-400">{'}'}</span>
+                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                <span className="mr-2 text-white">hardWorker</span>
+                                <span className="text-amber-300">&amp;&amp;</span>
                             </div>
+                            <div>
+                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                <span className="mr-2 text-white">problemSolver</span>
+                                <span className="text-amber-300">&amp;&amp;</span>
+                            </div>
+                            <div>
+                                <span className="ml-12 lg:ml-24 text-cyan-400">this.</span>
+                                <span className="mr-2 text-white">skills.length</span>
+                                <span className="mr-2 text-amber-300">&gt;=</span>
+                                <span className="text-orange-400">8</span>
+                            </div>
+                            <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
+                            <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
+
+
+
+                            <div>
+                                <span className="ml-4 lg:ml-8 mr-2 text-green-400">available:</span>
+                                <span className="text-orange-400">function</span>
+                                <span className="text-gray-400">{'() {'}</span>
+                            </div>
+                            <div>
+                                <span className="ml-8 lg:ml-16 mr-2 text-orange-400">return</span>
+                                <span className="text-gray-400">{`(`}</span>
+                            </div>
+                            <div>
+                                <span className="ml-12 lg:ml-24 mr-2 text-white">freelance</span>
+                                <span className="text-amber-300">||</span>
+                                <span className="mr-2 text-white">freelance</span>
+                            </div>
+                            <div><span className="ml-8 lg:ml-16 mr-2 text-gray-400">{`);`}</span></div>
+                            <div><span className="ml-4 lg:ml-8 text-gray-400">{`};`}</span></div>
+
+                            <div>
+                                <span className="text-gray-400">{`};`}</span>
+                            </div>
+
                         </code>
                     </div>
                 </div>

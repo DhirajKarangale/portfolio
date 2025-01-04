@@ -1,5 +1,6 @@
 import { CgGitFork } from "react-icons/cg";
 import { IoStar } from "react-icons/io5";
+import { personalData } from "../../utils/data/personal-data";
 
 function Footer() {
     return (
@@ -10,18 +11,18 @@ function Footer() {
                 </div>
                 <div className="flex flex-col md:flex-row items-center justify-between">
                     <p className="text-sm">
-                        © Developer Portfolio by
+                        © Developed by
                         <a
                             target="_blank"
-                            href="https://www.linkedin.com/in/abu-said-bd/"
+                            href={personalData.linkedIn}
                             className="text-[#16f2b3]"
                             rel="noopener noreferrer"
                         >
-                            Abu Said
+                            {' '}DK
                         </a>
                     </p>
                     <div className="flex items-center gap-5">
-                        <a
+                        {/* <a
                             target="_blank"
                             href="https://github.com/said7388/developer-portfolio"
                             className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
@@ -29,15 +30,15 @@ function Footer() {
                         >
                             <IoStar />
                             <span>Star</span>
-                        </a>
+                        </a> */}
                         <a
                             target="_blank"
-                            href="https://github.com/said7388/developer-portfolio/fork"
+                            href={personalData.github}
                             className="flex items-center gap-2 uppercase hover:text-[#16f2b3]"
                             rel="noopener noreferrer"
                         >
                             <CgGitFork />
-                            <span>Fork</span>
+                            <span>Github</span>
                         </a>
                     </div>
                 </div>
