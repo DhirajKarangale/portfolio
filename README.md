@@ -37,6 +37,6 @@ An expense tracking app built using the MERN stack that allows users to set fina
 
 Feel free to reach out if you want to collaborate on a project or just have a tech chat. You can contact me via the following platforms:
 
-- **Email:** [dakarangale02@gmail.com](mailto:dakarangale02@gmail.com)
+- **Email:** [dhirajkarangale02@gmail.com](mailto:dhirajkarangale02@gmail.com)
 - **LinkedIn:** [linkedin.com/in/dhiraj-karangale-464ab91bb/](https://www.linkedin.com/in/dhiraj-karangale-464ab91bb/)
 - **GitHub:** [github.com/dhirajkarangale](https://github.com/DhirajKarangale)

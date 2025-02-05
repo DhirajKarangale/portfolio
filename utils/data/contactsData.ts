@@ -1,6 +1,6 @@
 export const contactsData = {
-    email: 'dakarangale02@gmail.com',
-    phone: '+91 7620320595',
+    email: 'dhirajkarangale02@gmail.com',
+    phone: '+91 0000000000',
     address: 'Pune Maharashtra, India',
     github: 'https://github.com/DhirajKarangale',
     facebook: 'https://www.facebook.com/dhiraj.karangale.02/',
