@@ -1,10 +1,9 @@
 import { contactsData } from '../../utils/data/contactsData';
 import { BiLogoLinkedin } from 'react-icons/bi';
 import { CiLocationOn } from 'react-icons/ci';
-// import { FaFacebook, FaStackOverflow } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaXTwitter } from 'react-icons/fa6';
-import { IoLogoGithub, IoMdCall } from 'react-icons/io';
+import { IoLogoGithub } from 'react-icons/io';
 import { MdAlternateEmail } from 'react-icons/md';
 
 export default function Contact() {
@@ -17,7 +16,6 @@ export default function Contact() {
                 <span className="h-36 w-[2px] bg-[#1a1443]"></span>
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
-                {/* <ContactForm /> */}
                 <div className="lg:w-3/4 ">
                     <div className="flex flex-col gap-5 lg:gap-9">
                         <p className="text-sm md:text-xl flex items-center gap-3">
@@ -27,13 +25,6 @@ export default function Contact() {
                             />
                             <span>{contactsData.email}</span>
                         </p>
-                        {/* <p className="text-sm md:text-xl flex items-center gap-3">
-                            <IoMdCall
-                                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                                size={36}
-                            />
-                            <span>{contactsData.phone}</span>
-                        </p> */}
                         <p className="text-sm md:text-xl flex items-center gap-3">
                             <CiLocationOn
                                 className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
@@ -61,12 +52,6 @@ export default function Contact() {
                                 size={48}
                             />
                         </a>
-                        {/* <a target="_blank" href={contactsData.stackOverflow} rel="noopener noreferrer">
-                            <FaStackOverflow
-                                className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                                size={48}
-                            />
-                        </a> */}
                         <a target="_blank" href={contactsData.facebook} rel="noopener noreferrer">
                             <FaFacebook
                                 className="bg-[#8b98a5] p-3 rounded-full hover:bg-[#16f2b3] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"

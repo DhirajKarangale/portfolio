@@ -17,11 +17,11 @@ export default function About() {
                     <p className="text-gray-200 text-sm lg:text-lg"
                         dangerouslySetInnerHTML={{
                             __html: personalData.description.replace(
-                                '100K+ downloads',
-                                `<a href="https://play.google.com/store/apps/details?id=com.playhobo.idlecryptominer" target="_blank" style="color: #16f2b3; font-weight: bold1; font-style: italic1; text-decoration: underline;">100K+ downloads</a>`
-                            ).replace(
                                 '10K+ downloads',
-                                `<a href="https://play.google.com/store/apps/details?id=com.blackwonder3d.thunderworld" target="_blank" style="color: #16f2b3; font-weight: bold1; font-style: italic1; text-decoration: underline;">10K+ downloads</a>`
+                                `<a href="https://play.google.com/store/apps/details?id=com.playhobo.idlecryptominer" target="_blank" style="color: #16f2b3; font-weight: bold1; font-style: italic1; text-decoration: underline;">10K+ downloads</a>`
+                            ).replace(
+                                '100K+ downloads',
+                                `<a href="https://play.google.com/store/apps/details?id=com.blackwonder3d.thunderworld" target="_blank" style="color: #16f2b3; font-weight: bold1; font-style: italic1; text-decoration: underline;">100K+ downloads</a>`
                             )
                         }}
                     />
