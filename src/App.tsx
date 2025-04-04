@@ -7,7 +7,7 @@ import Projects from './components/Projects';
 import Skills from './components/Skills';
 import RootLayout from "./components/RootLayout";
 
-function App() {
+export default function App() {
   return (
     <RootLayout>
       <Hero />
@@ -20,5 +20,3 @@ function App() {
     </RootLayout>
   );
 }
-
-export default App
