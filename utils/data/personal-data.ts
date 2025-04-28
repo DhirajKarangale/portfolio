@@ -2,7 +2,7 @@ export const personalData = {
   name: "Dhiraj Karangale",
   profile: 'profile.png',
   designation: "Software Developer",
-  description: "I'm Dhiraj Karangale, a HackWithInfi finalist, full-stack developer, and game creator dedicated to building immersive digital experiences. From crafting 3D worlds in Unity 🌍 and designing responsive interfaces with React ⚙️, to creating mobile-first experiences with React Native 📱 and managing databases with MongoDB 💾, I thrive on solving complex coding challenges. I've published two games on the Play Store, one with 100K+ downloads and another with 10K+ downloads, demonstrating my ability to create engaging content that resonates with players worldwide.",
+  description: "I'm Dhiraj Karangale, a HackWithInfi finalist, full-stack developer, and game creator dedicated to building immersive digital experiences. From crafting 3D worlds in Unity 🌍 and designing responsive interfaces with React ⚙️, to creating mobile-first experiences with React Native 📱 and managing databases with MongoDB 💾 and PostgreSQL 🛢️, I thrive on solving complex coding challenges. I'm also skilled in building robust, scalable backend systems using Spring Boot 🌱, designing secure REST APIs, and implementing microservices architectures for high-performance applications. I've published two games on the Play Store — one with 100K+ downloads and another with 10K+ downloads — demonstrating my ability to create engaging content that resonates with players worldwide.",
   email: 'dhirajkarangale02@gmail.com',
   phone: '+91 0000000000',
   address: 'Pune Maharashtra, India',
@@ -13,5 +13,5 @@ export const personalData = {
   stackOverflow: 'https://stackoverflow.com/users/19772644/dhiraj-karangale',
   leetcode: "https://leetcode.com/u/DhirajKarangale/",
   devUsername: "dhirajkarangale",
-  resume: "https://drive.google.com/file/d/1tb1X0gvyo-YHSKv-klMjfYSKhYj9cPs5/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1IgJwws6M6Uhs0WEXwdurWxBr92g-hBWB/view?usp=sharing"
 }
